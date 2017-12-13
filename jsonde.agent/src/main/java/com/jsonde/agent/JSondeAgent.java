@@ -39,7 +39,9 @@ public class JSondeAgent implements MessageListener, ClassFileTransformer {
         jSondeAgent.execute();
         jSondeAgent.setTransformer();
     }
-
+    
+    System.out.println("ciao pity pitth");
+    
     @SuppressWarnings("unused")
     public static void agentmain(String arg, final Instrumentation instrumentation) {
         final JSondeAgent jSondeAgent = new JSondeAgent(arg, instrumentation);
