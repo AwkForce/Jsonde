@@ -44,6 +44,8 @@ public class JSondeAgent implements MessageListener, ClassFileTransformer {
     
     System.out.println("sei un malato screanzato");
     
+    //sajdiojoqwijdoaj
+    
     @SuppressWarnings("unused")
     public static void agentmain(String arg, final Instrumentation instrumentation) {
         final JSondeAgent jSondeAgent = new JSondeAgent(arg, instrumentation);
